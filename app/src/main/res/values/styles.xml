@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="font">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18dp</item>
+        
+    </style>
+
+    <style name="bigFont">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">28dp</item>
+
+    </style>
+
+</resources>
