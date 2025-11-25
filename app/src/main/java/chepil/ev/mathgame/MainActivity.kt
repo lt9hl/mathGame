@@ -58,13 +58,17 @@ class MainActivity : AppCompatActivity() {
         if(checkAnswer())
             countCorrectAnswers++
         else
-            countWrongAnswers++
+            countWrongAnswers--
 
         getPersentCorrectAnswers()
         updateStats()
         updateExample()
     }
     fun isWrong(view: View) {
+        if(checkAnswer())
+            countCorrectAnswers--
+        else
+            countWrongAnswers++
         getPersentCorrectAnswers()
         updateStats()
         updateExample()
